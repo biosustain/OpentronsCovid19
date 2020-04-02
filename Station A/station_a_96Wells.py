@@ -1,10 +1,13 @@
 metadata = {
-    'protocolName': 'BP Genomics Station A',
-    'author': 'Chaz <chaz@opentrons.com',
+    'protocolName': 'DTU Sample Reformatting',
+    'author': 'Lachlan <lajamu@biosustain.dtu.dk',
     'source': 'Custom Protocol Request',
     'apiLevel': '2.2'
 }
 
+#This protocol takes 4x 24 well sample racks and reformats into a 96 deep well plate and performs a lysis step.
+#Requires 2x 20 µL Tip racks and 2x 200 µL Tip racks. 
+#Adapted from opetrons protocol written by Chaz. Will require updating labware for samples and deepwell when specs are available. 
 
 def run(protocol):
     tips200 = [protocol.load_labware('opentrons_96_tiprack_300ul', '9'), \
