@@ -1,3 +1,5 @@
+
+
 metadata = {
     'protocolName': 'DTU Sample Reformatting-Single Pipette',
     'author': 'Lachlan <lajamu@biosustain.dtu.dk',
@@ -11,27 +13,24 @@ metadata = {
 
 def run(protocol):
 
-    #set_lights(button=None, rails=None)
-    tips200 = [protocol.load_labware('opentrons_96_tiprack_300ul', '9'), \
-               protocol.load_labware('opentrons_96_tiprack_300ul', '11')]
+ 
+    tips200 = [protocol.load_labware('opentrons_96_tiprack_300ul', '4')]
    
     
     p300 = protocol.load_instrument(
-        'p300_single', 'left', tip_racks=tips200)
-    
-    
-    tempdeck= protocol.load_module('tempdeck', '1')
-    tempdeck.set_temperature(4)
-    plate = tempdeck.load_labware('nunc_96_wellplate_1300ul', '1')
+        'p300_single', 'right', tip_racks=tips200)
+
+    plate = protocol.load_labware('nunc_96_wellplate_1300ul', '1')
      
     #Select number of wells to run. 
     platewells = plate.wells()
 
     #Load sample racks
-    samplerack1 = protocol.load_labware('bpg_24_tuberack_2ml', '5')
-    samplerack2 = protocol.load_labware('bpg_24_tuberack_2ml', '6')
-    samplerack3 = protocol.load_labware('bpg_24_tuberack_2ml', '2')
-    samplerack4 = protocol.load_labware('bpg_24_tuberack_2ml', '3')
+    tuberack = "opentrons_24_tuberack_generic_2ml_screwcap"
+    samplerack1 = protocol.load_labware(tuberack '5')
+    samplerack2 = protocol.load_labware(tuberack, '6')
+    samplerack3 = protocol.load_labware(tuberack, '2')
+    samplerack4 = protocol.load_labware(tuberack, '3')
     
     #Sample plate and sample selection
     samps = samplerack1.wells()[:]+\
@@ -47,12 +46,14 @@ def run(protocol):
 
 
 #Code to transfer sample to 96 well deep plate
+#Currently set to 2 x 150uL. Can be modified to 2 x 100 by setting transferVol = 200
+    
+    transferVol = 300
     for src, dest in zip(samps, platewells):
         p300.pick_up_tip()
-        p300.transfer(150, src.bottom(9), dest.top(-6), new_tip='never')
-        p300.dispense(100, dest.top(-6))
-        p300.transfer(50, src.bottom(1.5), dest.top(-6), new_tip="never")
-        p300.dispense(300, dest.top(-6))
+        p300.transfer(transferVol/2, src.bottom(3), dest.top(-6), new_tip='never')
+        p300.transfer(transferVol/2, src.bottom(3), dest.top(-6), new_tip="never")
+        p300.blow_out(dest.top(-6))
         p300.drop_tip()
-
+    protocol.comment("Congratulations! \nRun Complete. Seal and refridgerate deep-well plate.")
 
