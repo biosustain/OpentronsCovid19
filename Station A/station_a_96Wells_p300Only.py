@@ -51,9 +51,10 @@ def run(protocol):
     transferVol = 300
     for src, dest in zip(samps, platewells):
         p300.pick_up_tip()
-        p300.transfer(transferVol/2, src.bottom(3), dest.top(-6), new_tip='never')
-        p300.transfer(transferVol/2, src.bottom(3), dest.top(-6), new_tip="never")
-        p300.blow_out(dest.top(-6))
+        for _ in range(2):
+            p300.transfer(transferVol/2, src, dest.top(-6), 
+                          new_tip='never', touch_tip=True)
+            p300.blow_out(dest.top(-6))
         p300.drop_tip()
     protocol.comment("Congratulations! \nRun Complete. Seal and refridgerate deep-well plate.")
 
