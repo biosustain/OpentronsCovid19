@@ -10,6 +10,8 @@ metadata = {
 #Adapted from opetrons protocol written by Chaz. Will require updating labware for samples and deepwell when specs are available. 
 
 def run(protocol):
+
+    set_lights(button=None, rails=None)
     tips200 = [protocol.load_labware('opentrons_96_tiprack_300ul', '9'), \
                protocol.load_labware('opentrons_96_tiprack_300ul', '11')]
     tips20 = [protocol.load_labware('opentrons_96_filtertiprack_20ul', '8'),\
