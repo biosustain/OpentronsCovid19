@@ -53,8 +53,9 @@ def run(protocol):
         p300.pick_up_tip()
         for _ in range(2):
             p300.transfer(transferVol/2, src, dest.top(-6), 
-                          new_tip='never', touch_tip=True)
+                          new_tip='never')
             p300.blow_out(dest.top(-6))
+            p300.touch_tip()
         p300.drop_tip()
     protocol.comment("Congratulations! \nRun Complete. Seal and refridgerate deep-well plate.")
 
