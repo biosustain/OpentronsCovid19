@@ -27,7 +27,7 @@ def run(protocol):
 
     #Load sample racks
     tuberack = "opentrons_24_tuberack_generic_2ml_screwcap"
-    samplerack1 = protocol.load_labware(tuberack '5')
+    samplerack1 = protocol.load_labware(tuberack, '5')
     samplerack2 = protocol.load_labware(tuberack, '6')
     samplerack3 = protocol.load_labware(tuberack, '2')
     samplerack4 = protocol.load_labware(tuberack, '3')
