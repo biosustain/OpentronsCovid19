@@ -48,11 +48,11 @@ def run(protocol):
 #Code to transfer sample to 96 well deep plate
 #Currently set to 2 x 150uL. Can be modified to 2 x 100 by setting transferVol = 200
     
-    transferVol = 300
+    transferVol = 200
     for src, dest in zip(samps, platewells):
         p300.pick_up_tip()
-        for _ in range(2):
-            p300.transfer(transferVol/2, src, dest.top(-6), 
+        for _ in range(1):
+            p300.transfer(transferVol, src, dest.top(-6), 
                           new_tip='never')
             p300.blow_out(dest.top(-6))
             p300.touch_tip()
