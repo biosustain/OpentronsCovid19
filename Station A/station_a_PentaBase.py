@@ -24,7 +24,7 @@ def run(protocol):
     p300 = protocol.load_instrument(
         'p300_single', 'right', tip_racks=tips200)
 
-    plate_type = "nunc_96_wellplate_1300ul"
+    plate_type = "rna_ext_plate"
     plate1 = protocol.load_labware(plate_type, '4')
     plate2 = protocol.load_labware(plate_type, "5")
     plate3 = protocol.load_labware(plate_type, "6")
