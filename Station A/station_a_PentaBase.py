@@ -19,18 +19,18 @@ def run(protocol):
     
     
  
-    tips200 = [protocol.load_labware('opentrons_96_tiprack_300ul', '3')]
+    tips200 = [protocol.load_labware('opentrons_96_tiprack_300ul', '10')]
    
     
     p300 = protocol.load_instrument(
         'p300_single', 'right', tip_racks=tips200)
 
-    plate_type = "rna_ext_plate"
-    plate1 = protocol.load_labware(plate_type, "10")
+    plate_type = "nunc_96_wellplate_1300ul"
+    plate1 = protocol.load_labware(plate_type, "7")
     plate2 = protocol.load_labware(plate_type, "9")
-    plate3 = protocol.load_labware(plate_type, "7") 
+    plate3 = protocol.load_labware(plate_type, "4") 
     plate4 = protocol.load_labware(plate_type, "6")
-    plate5 = protocol.load_labware(plate_type, "4" )
+    plate5 = protocol.load_labware(plate_type, "3" )
     plate6 = protocol.load_labware(plate_type,"1" )
     
     all_loadwells = get_loadwells(plate1)+\
@@ -44,7 +44,7 @@ def run(protocol):
 
     
     #Load sample racks
-    tuberack = "opentrons_24_tuberack_generic_2ml_screwcap"
+    tuberack = "opentrons_24_aluminumblock_generic_2ml_screwcap"
     samplerack1 = protocol.load_labware(tuberack, '11')
     samplerack2 = protocol.load_labware(tuberack, '8')
     samplerack3 = protocol.load_labware(tuberack, '5')
