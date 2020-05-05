@@ -32,7 +32,7 @@ def run(protocol):
 
     for i in range(12):
         p1.pick_up_tip()
-        p1.aspirate(300, rack.wells()[0])
+        p1.aspirate(300, rack.wells()[0].top(-70))
         p1.dispense(300, rack.wells()[0])
         p1.return_tip()
         
