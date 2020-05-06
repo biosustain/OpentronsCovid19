@@ -19,13 +19,13 @@ def run(protocol):
     
     
  
-    tips200 = [protocol.load_labware('opentrons_96_tiprack_300ul', '10')]
+    tips1000= [protocol.load_labware('opentrons_96_tiprack_1000ul', '10')]
    
     
     p300 = protocol.load_instrument(
-        'p300_single', 'right', tip_racks=tips200)
+        'p1000_single', 'right', tip_racks=tips1000)
 
-    plate_type = "nunc_96_wellplate_1300ul"
+    plate_type = "pentabase_plate_with_adaptor"
     plate1 = protocol.load_labware(plate_type, "7")
     plate2 = protocol.load_labware(plate_type, "9")
     plate3 = protocol.load_labware(plate_type, "4") 
@@ -44,7 +44,7 @@ def run(protocol):
 
     
     #Load sample racks
-    tuberack = "opentrons_24_aluminumblock_generic_2ml_screwcap"
+    tuberack = "nest_aluminium_24"
     samplerack1 = protocol.load_labware(tuberack, '11')
     samplerack2 = protocol.load_labware(tuberack, '8')
     samplerack3 = protocol.load_labware(tuberack, '5')
@@ -60,15 +60,8 @@ def run(protocol):
     s4.reverse()
     
     samps = s1 + s2 + s3 + s4
-#    #Sample plate and sample selection
-#    samps = samplerack1.wells()[:]+\
-#    samplerack2.wells()[:].reverse()+\
-#    samplerack3.wells()[:]+\
-#    samplerack4.wells()[:].reverse()
-#   
-    #print(samps)
-#    
-##    
+
+
     p300.flow_rate.aspirate = 150
     p300.flow_rate.dispense = 300
     p300.flow_rate.blow_out = 300
@@ -77,7 +70,7 @@ def run(protocol):
 #Code to transfer sample to 96 well deep plate
 #Currently set to 2 x 150uL. Can be modified to 2 x 100 by setting transferVol = 200
     
-    transferVol = 200
+    transferVol = 300
     for src, dest in zip(samps, all_loadwells):
         p300.pick_up_tip()
         for _ in range(1):
