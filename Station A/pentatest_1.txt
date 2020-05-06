@@ -1,0 +1,342 @@
+Loading json containers...
+Json container file load complete, listing database
+Found 0 containers to add. Starting migration...
+Database migration complete!
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to A1 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into A1 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at A1 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B1 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to B1 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from B1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into B1 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at B1 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from C1 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to C1 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from C1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into C1 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at C1 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from D1 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to D1 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from D1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into D1 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at D1 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from E1 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to E1 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from A2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into E1 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at E1 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from F1 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to F1 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from B2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into F1 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at F1 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from G1 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to G1 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from C2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into G1 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at G1 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from H1 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to H1 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from D2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into H1 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at H1 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to A7 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from A3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into A7 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at A7 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B2 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to B7 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from B3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into B7 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at B7 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from C2 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to C7 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from C3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into C7 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at C7 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from D2 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to D7 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from D3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into D7 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at D7 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from E2 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to E7 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from A4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into E7 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at E7 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from F2 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to F7 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from B4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into F7 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at F7 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from G2 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to G7 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from C4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into G7 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at G7 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from H2 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to H7 of Nunc 96 Well Plate 1300 킠 on 4
+	Aspirating 200.0 uL from D4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into H7 of Nunc 96 Well Plate 1300 킠 on 4 at 1.0 speed
+Blowing out at H7 of Nunc 96 Well Plate 1300 킠 on 4
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to A1 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from A5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into A1 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at A1 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B3 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to B1 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from B5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into B1 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at B1 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from C3 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to C1 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from C5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into C1 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at C1 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from D3 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to D1 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from D5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into D1 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at D1 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from E3 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to E1 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from A6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into E1 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at E1 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from F3 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to F1 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from B6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into F1 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at F1 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from G3 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to G1 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from C6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into G1 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at G1 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from H3 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 to H1 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from D6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 2 at 1.0 speed
+	Dispensing 200.0 uL into H1 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at H1 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to A7 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from A1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into A7 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at A7 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B4 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to B7 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from B1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into B7 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at B7 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from C4 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to C7 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from C1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into C7 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at C7 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from D4 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to D7 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from D1 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into D7 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at D7 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from E4 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to E7 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from A2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into E7 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at E7 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from F4 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to F7 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from B2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into F7 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at F7 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from G4 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to G7 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from C2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into G7 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at G7 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from H4 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to H7 of Nunc 96 Well Plate 1300 킠 on 5
+	Aspirating 200.0 uL from D2 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into H7 of Nunc 96 Well Plate 1300 킠 on 5 at 1.0 speed
+Blowing out at H7 of Nunc 96 Well Plate 1300 킠 on 5
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to A1 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from A3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into A1 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at A1 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B5 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to B1 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from B3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into B1 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at B1 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from C5 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to C1 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from C3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into C1 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at C1 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from D5 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to D1 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from D3 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into D1 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at D1 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from E5 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to E1 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from A4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into E1 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at E1 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from F5 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to F1 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from B4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into F1 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at F1 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from G5 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to G1 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from C4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into G1 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at G1 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from H5 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to H1 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from D4 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into H1 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at H1 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to A7 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from A5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into A7 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at A7 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from B6 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to B7 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from B5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into B7 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at B7 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from C6 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to C7 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from C5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into C7 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at C7 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from D6 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to D7 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from D5 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into D7 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at D7 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from E6 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from A6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to E7 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from A6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into E7 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at E7 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from F6 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from B6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to F7 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from B6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into F7 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at F7 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from G6 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from C6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to G7 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from C6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into G7 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at G7 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from H6 of Opentrons 96 Tip Rack 300 킠 on 1
+Transferring 200.0 from D6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 to H7 of Nunc 96 Well Plate 1300 킠 on 6
+	Aspirating 200.0 uL from D6 of Opentrons 24 Tube Rack with Generic 2 mL Screwcap on 7 at 1.0 speed
+	Dispensing 200.0 uL into H7 of Nunc 96 Well Plate 1300 킠 on 6 at 1.0 speed
+Blowing out at H7 of Nunc 96 Well Plate 1300 킠 on 6
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Congratulations! 
+Run Complete. Seal and refridgerate deep-well plate.

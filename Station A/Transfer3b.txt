@@ -1,0 +1,65 @@
+Loading json containers...
+Json container file load complete, listing database
+Found 0 containers to add. Starting migration...
+Database migration complete!
+[A6 of Pentabase 96 Well Plate 1000 킠 on 10, A12 of Pentabase 96 Well Plate 1000 킠 on 10, A6 of Pentabase 96 Well Plate 1000 킠 on 11, A12 of Pentabase 96 Well Plate 1000 킠 on 11, A6 of Pentabase 96 Well Plate 1000 킠 on 7, A12 of Pentabase 96 Well Plate 1000 킠 on 7, A6 of Pentabase 96 Well Plate 1000 킠 on 8, A12 of Pentabase 96 Well Plate 1000 킠 on 8, A6 of Pentabase 96 Well Plate 1000 킠 on 9, A12 of Pentabase 96 Well Plate 1000 킠 on 9, A6 of Pentabase 96 Well Plate 1000 킠 on 6, A12 of Pentabase 96 Well Plate 1000 킠 on 6]
+Transferring 50.0 from A6 of Pentabase 96 Well Plate 1000 킠 on 10 to A1 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A1 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A6 of Pentabase 96 Well Plate 1000 킠 on 10 at 1.0 speed
+	Dispensing 50.0 uL into A1 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A12 of Pentabase 96 Well Plate 1000 킠 on 10 to A2 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A2 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A12 of Pentabase 96 Well Plate 1000 킠 on 10 at 1.0 speed
+	Dispensing 50.0 uL into A2 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A6 of Pentabase 96 Well Plate 1000 킠 on 11 to A3 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A3 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A6 of Pentabase 96 Well Plate 1000 킠 on 11 at 1.0 speed
+	Dispensing 50.0 uL into A3 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A12 of Pentabase 96 Well Plate 1000 킠 on 11 to A4 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A4 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A12 of Pentabase 96 Well Plate 1000 킠 on 11 at 1.0 speed
+	Dispensing 50.0 uL into A4 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A6 of Pentabase 96 Well Plate 1000 킠 on 7 to A5 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A5 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A6 of Pentabase 96 Well Plate 1000 킠 on 7 at 1.0 speed
+	Dispensing 50.0 uL into A5 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A12 of Pentabase 96 Well Plate 1000 킠 on 7 to A6 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A6 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A12 of Pentabase 96 Well Plate 1000 킠 on 7 at 1.0 speed
+	Dispensing 50.0 uL into A6 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A6 of Pentabase 96 Well Plate 1000 킠 on 8 to A7 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A7 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A6 of Pentabase 96 Well Plate 1000 킠 on 8 at 1.0 speed
+	Dispensing 50.0 uL into A7 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A12 of Pentabase 96 Well Plate 1000 킠 on 8 to A8 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A8 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A12 of Pentabase 96 Well Plate 1000 킠 on 8 at 1.0 speed
+	Dispensing 50.0 uL into A8 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A6 of Pentabase 96 Well Plate 1000 킠 on 9 to A9 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A9 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A6 of Pentabase 96 Well Plate 1000 킠 on 9 at 1.0 speed
+	Dispensing 50.0 uL into A9 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A12 of Pentabase 96 Well Plate 1000 킠 on 9 to A10 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A10 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A12 of Pentabase 96 Well Plate 1000 킠 on 9 at 1.0 speed
+	Dispensing 50.0 uL into A10 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A6 of Pentabase 96 Well Plate 1000 킠 on 6 to A11 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A11 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A6 of Pentabase 96 Well Plate 1000 킠 on 6 at 1.0 speed
+	Dispensing 50.0 uL into A11 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12
+Transferring 50.0 from A12 of Pentabase 96 Well Plate 1000 킠 on 6 to A12 of Corning 96 Well Plate 360 킠 Flat on 3
+	Picking up tip from A12 of Opentrons 96 Tip Rack 300 킠 on 1
+	Aspirating 50.0 uL from A12 of Pentabase 96 Well Plate 1000 킠 on 6 at 1.0 speed
+	Dispensing 50.0 uL into A12 of Corning 96 Well Plate 360 킠 Flat on 3 at 1.0 speed
+	Dropping tip into A1 of Opentrons Fixed Trash on 12

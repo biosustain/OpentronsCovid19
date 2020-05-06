@@ -30,10 +30,11 @@ def run(protocol):
 
     rack = protocol.load_labware("nest_aluminium_24", "2")
 
-    for i in range(12):
+    for i in range(96):
         p1.pick_up_tip()
         p1.aspirate(300, rack.wells()[0].top(-70))
-        p1.dispense(300, rack.wells()[0])
+        p1.dispense(300, rack.wells()[0].top(-5))
+        p1.blow_out(rack.wells()[0].top(2))
         p1.return_tip()
         
 
