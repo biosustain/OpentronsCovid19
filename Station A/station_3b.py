@@ -22,7 +22,7 @@ def run(protocol):
     p50Multi = protocol.load_instrument(
         'p50_multi', 'left', tip_racks=tips200)
 
-    plate_type = "rna_ext_plate"
+    plate_type = "pentabase_plate_with_adaptor"
     rnaplate1 = protocol.load_labware(plate_type, '10')
     rnaplate2 = protocol.load_labware(plate_type, "11")
     rnaplate3 = protocol.load_labware(plate_type, "7")
