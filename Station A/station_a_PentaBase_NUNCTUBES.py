@@ -23,8 +23,9 @@ def run(protocol):
    
     
     p300 = protocol.load_instrument(
-        'p1000_single', 'right', tip_racks=tips1000)
+        'p1000_single', 'left', tip_racks=tips1000)
 
+#Swap plate type based on new vs. Old. 
     plate_type = "pentabase_plate_with_adaptor"
     plate1 = protocol.load_labware(plate_type, "7")
     plate2 = protocol.load_labware(plate_type, "9")
