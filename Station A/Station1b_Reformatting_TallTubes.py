@@ -65,10 +65,7 @@ def run(protocol):
     p300.flow_rate.aspirate = 150
     p300.flow_rate.dispense = 300
     p300.flow_rate.blow_out = 300
-#
-#
-#Code to transfer sample to 96 well deep plate
-#Currently set to 2 x 150uL. Can be modified to 2 x 100 by setting transferVol = 200
+
     
     transferVol = 300
     x = 0
