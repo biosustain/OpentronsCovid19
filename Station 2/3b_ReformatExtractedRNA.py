@@ -42,6 +42,10 @@ def run(protocol):
     print(rnaCols)
     
     for i in range(12):
-        p50Multi.transfer(50, rnaCols[i], outPlate.columns()[i], new_tip="always")
-        
+        p300Multi.pick_up_tip()
+        p300Multi.aspirate(50, rnaCols[i])
+        p300Multi.aspirate(50, rnaCols[i].bottom(z=2))
+        p300Multi.dispense(100, outPlate.columns()[i][0])
+        p300Multi.blow_out(outPlate.columns()[i][0])
+        p300Multi.drop_tip()
         
