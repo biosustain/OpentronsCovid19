@@ -19,8 +19,8 @@ def run(protocol):
     tips200 = [protocol.load_labware('opentrons_96_tiprack_300ul', '1')]
    
     
-    p50Multi = protocol.load_instrument(
-        'p50_multi', 'left', tip_racks=tips200)
+    p300Multi = protocol.load_instrument(
+        'p300_multi', 'right', tip_racks=tips200)
 
     plate_type = "pentabase_plate_with_adaptor"
     rnaplate1 = protocol.load_labware(plate_type, '10')
@@ -42,6 +42,10 @@ def run(protocol):
     print(rnaCols)
     
     for i in range(12):
-        p50Multi.transfer(50, rnaCols[i], outPlate.columns()[i], new_tip="always")
-        
+        p300Multi.pick_up_tip()
+        p300Multi.aspirate(50, rnaCols[i])
+        p300Multi.aspirate(50, rnaCols[i].bottom(z=2))
+        p300Multi.dispense(100, outPlate.columns()[i][0])
+        p300Multi.blow_out(outPlate.columns()[i][0])
+        p300Multi.drop_tip()
         
