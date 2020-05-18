@@ -12,11 +12,11 @@ metadata = {
 
 
 def get_loadwells(plate):
-	"""Returns the 1st and 7th column of a plate. Used to determine 
-	where to load the pentabase preloaded extraction plates."""
-    loadwells = plate.columns()[0] + plate.columns()[6]      
+    """Returns the 1st and 7th column of a plate. Used to determine 
+    where to load the pentabase preloaded extraction plates."""
+    loadwells = plate.columns()[0] + plate.columns()[6]
     return(loadwells)
-    
+        
 
 def run(protocol):
     """
