@@ -82,7 +82,7 @@ def run(protocol):
         for _ in range(1):
         	#18 mm above the bottom allows capture of fluid without 
             #touching swap. 
-            p300.transfer(transferVol, src.bottom(z=14), dest.top(-6), 
+            p300.transfer(transferVol, src.bottom(z=8), dest.top(-6), 
                               new_tip='never')
             p300.blow_out(dest.top(-6))
             p300.touch_tip()
