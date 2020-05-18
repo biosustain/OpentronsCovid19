@@ -7,17 +7,24 @@ metadata = {
     'apiLevel': '2.2'
 }
 
-#This protocol takes 4x 24 well sample racks and reformats into a 96 deep well plate and performs a lysis step.
-#Requires 2x 20 µL Tip racks and 2x 200 µL Tip racks. 
-#Adapted from opetrons protocol written by Chaz. Will require updating labware for samples and deepwell when specs are available. 
+#This protocol reformats from 4 x 24 well racks filled with sample tubes into 6x16 preloaded pentabase plates.
+#This protocol is calibrated to the taller Nunc tube variant.
+
+
 def get_loadwells(plate):
+	"""Returns the 1st and 7th column of a plate. Used to determine 
+	where to load the pentabase preloaded extraction plates."""
     loadwells = plate.columns()[0] + plate.columns()[6]      
     return(loadwells)
     
 
 def run(protocol):
-    
-    
+    """
+    Uses a p1000 tip to transfer from sample tubes to pentabase RNA extraction plates.
+    Protocol takes approximately 45 minutes to run in the robot.
+    There is a defined pause at the halfway point, at which time the tip trash should be emptied to prevent 
+    too many tips preventing ejection.
+    """
  
     tips1000= [protocol.load_labware('opentrons_96_tiprack_1000ul', '10')]
    
@@ -25,7 +32,7 @@ def run(protocol):
     p300 = protocol.load_instrument(
         'p1000_single', 'left', tip_racks=tips1000)
 
-#Swap plate type based on new vs. Old. 
+ 
     plate_type = "pentabase_plate_with_adaptor"
     plate1 = protocol.load_labware(plate_type, "7")
     plate2 = protocol.load_labware(plate_type, "9")
@@ -62,20 +69,18 @@ def run(protocol):
     
     samps = s1 + s2 + s3 + s4
 
-
+#Set defined flow rates.
     p300.flow_rate.aspirate = 150
     p300.flow_rate.dispense = 300
     p300.flow_rate.blow_out = 300
-#
-#
-#Code to transfer sample to 96 well deep plate
-#Currently set to 2 x 150uL. Can be modified to 2 x 100 by setting transferVol = 200
     
+
     transferVol = 300
     x = 0
     for src, dest in zip(samps, all_loadwells):
         p300.pick_up_tip()
         for _ in range(1):
+        	#2 mm of the bottom of the tube works effectively with both taller Nunc variant and the standard Nunc tubes. 
             p300.transfer(transferVol, src.bottom(z=2), dest.top(-6), 
                               new_tip='never')
             p300.blow_out(dest.top(-6))
@@ -87,5 +92,5 @@ def run(protocol):
             protocol.pause("Check Tip Trash")
             x+=1
 
-    protocol.comment("Congratulations! \nRun Complete. Seal and refridgerate deep-well plate.")
+    protocol.comment("Congratulations! \nRun Complete. Refridgerate deep-well plate.")
 
