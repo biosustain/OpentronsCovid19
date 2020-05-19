@@ -20,7 +20,7 @@ def get_loadwells(plate):
 
 def run(protocol):
     """
-    Uses a p1000 tip to transfer from sample tubes to pentabase RNA extraction plates.
+    Uses a p1000 tip to transfer from sample tubes to pentabase RNA extraction  (with custom adaptors).
     Protocol takes approximately 45 minutes to run in the robot.
     There is a defined pause at the halfway point, at which time the tip trash should be emptied to prevent 
     too many tips preventing ejection.
@@ -51,25 +51,30 @@ def run(protocol):
     
 
     
-    #Load sample racks
+    #If new labware is defined the tuberack variable should be changed. 
     tuberack = "zymo_24_aluminium"
+
+    #Load sample racks
     samplerack1 = protocol.load_labware(tuberack, '11')
     samplerack2 = protocol.load_labware(tuberack, '8')
     samplerack3 = protocol.load_labware(tuberack, '5')
     samplerack4 = protocol.load_labware(tuberack, '2')
     
     
+    #Select all wells in sample racks
     s1 = samplerack1.wells()
     s2 = samplerack2.wells()
     s3 = samplerack3.wells()
     s4 = samplerack4.wells()
     
+    #Reverse order of wells in sample racks to optimize tip travel distance and reduce transfer
+    #over open tubes. 
     s2.reverse()
     s4.reverse()
     
     samps = s1 + s2 + s3 + s4
 
-#Set defined flow rates.
+	#Set defined flow rates.
     p300.flow_rate.aspirate = 150
     p300.flow_rate.dispense = 300
     p300.flow_rate.blow_out = 300
@@ -87,6 +92,8 @@ def run(protocol):
             p300.blow_out(dest.top(-6))
             p300.touch_tip()
         p300.drop_tip()
+
+        #Pause at halfway point to aviod overfilled tip trash. 
         if x != 47:
             x+=1
         else:
