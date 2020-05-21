@@ -52,7 +52,7 @@ def run(protocol):
 
     
     #If new labware is defined the tuberack variable should be changed. 
-    tuberack = "zymo_24_aluminium"
+    tuberack = "grenier_24_aluminium"
 
     #Load sample racks
     samplerack1 = protocol.load_labware(tuberack, '11')
@@ -85,9 +85,9 @@ def run(protocol):
     for src, dest in zip(samps, all_loadwells):
         p300.pick_up_tip()
         for _ in range(1):
-        	#18 mm above the bottom allows capture of fluid without 
-            #touching swap. 
-            p300.transfer(transferVol, src.bottom(z=8), dest.top(-6), 
+        	#Z Value needs to be changed with fluid volume variations and swab
+            #changes
+            p300.transfer(transferVol, src.bottom(z=6), dest.top(-6), 
                               new_tip='never')
             p300.blow_out(dest.top(-6))
             p300.touch_tip()
