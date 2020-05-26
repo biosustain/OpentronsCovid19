@@ -76,7 +76,7 @@ def run(protocol):
     for src, dest in zip(samps, all_loadwells):
         p300.pick_up_tip()
         for _ in range(1):
-            p300.transfer(transferVol, src.bottom(z=30), dest.top(-6), 
+            p300.transfer(transferVol, src.bottom(z=24), dest.top(-6), 
                               new_tip='never')
             p300.blow_out(dest.top(-6))
             p300.touch_tip()
