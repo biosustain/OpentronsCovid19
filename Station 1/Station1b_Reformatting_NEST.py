@@ -87,7 +87,7 @@ def run(protocol):
         for _ in range(1):
         	#Z Value needs to be changed with fluid volume variations and swab
             #changes
-            p300.transfer(transferVol, src.bottom(z=15), dest.top(-6), 
+            p300.transfer(transferVol, src.bottom(z=24), dest.top(-6), 
                               new_tip='never')
             p300.blow_out(dest.top(-6))
             p300.touch_tip()
