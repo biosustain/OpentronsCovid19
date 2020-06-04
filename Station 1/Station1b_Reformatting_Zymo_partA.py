@@ -1,3 +1,5 @@
+
+
 metadata = {
     'protocolName': 'DTU Sample Reformatting-Single Pipette',
     'author': 'Lachlan <lajamu@biosustain.dtu.dk',
@@ -7,7 +9,7 @@ metadata = {
 
 #This protocol reformats from 4 x 24 well racks filled with sample tubes into 6x16 preloaded pentabase plates.
 #This protocol is calibrated to the taller Nunc tube variant.
-#It is the same as Station1b_Reformatting_NEST apart from it is split in half. 
+#It is the same as Station1b_Reformatting_Zymo apart from it is split in half. 
 #This half works on the first set of 48 samples
 
 
@@ -33,7 +35,7 @@ def run(protocol):
         'p1000_single', 'left', tip_racks=tips1000)
 
  
-    plate_type = "#pentabase_plate_with_adaptor"
+    plate_type = "pentabase_plate_with_adaptor"
     plate1 = protocol.load_labware(plate_type, "7")
     plate2 = protocol.load_labware(plate_type, "9")
     plate3 = protocol.load_labware(plate_type, "4") 
@@ -52,7 +54,7 @@ def run(protocol):
 
     
     #If new labware is defined the tuberack variable should be changed. 
-    tuberack = "nest_24_aluminium_swab"
+    tuberack = "zymo_24_aluminium"
 
     #Load sample racks
     samplerack1 = protocol.load_labware(tuberack, '11')
@@ -73,6 +75,9 @@ def run(protocol):
     s4.reverse()
     
     samps = s1 + s2 + s3 + s4
+    
+    samps = samps[:48]
+    all_loadwells = all_loadwells[:48]
 
 	#Set defined flow rates.
     p300.flow_rate.aspirate = 150
@@ -81,21 +86,18 @@ def run(protocol):
     
 
     transferVol = 300
-    
-    samps = samps[:48]
-    all_loadwells = all_loadwells[:48]
 
     for src, dest in zip(samps, all_loadwells):
         p300.pick_up_tip()
         for _ in range(1):
-        	#Z Value needs to be changed with fluid volume variations and swab
-            #changes
-            p300.transfer(transferVol, src.bottom(z=24), dest.top(-6), 
+        	#18 mm above the bottom allows capture of fluid without 
+            #touching swap. 
+            p300.transfer(transferVol, src.bottom(z=8), dest.top(-6), 
                               new_tip='never')
             p300.blow_out(dest.top(-6))
             p300.touch_tip()
         p300.drop_tip()
 
-       
+
     protocol.comment("Empty the trash bin and then start Station1b_Reformatting_NEST_partB.py")
 

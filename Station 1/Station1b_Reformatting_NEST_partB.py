@@ -83,7 +83,7 @@ def run(protocol):
     transferVol = 300
     
     samps = samps[48:]
-    all_loadwells[48:]
+    all_loadwells = all_loadwells[48:]
 
     for src, dest in zip(samps, all_loadwells):
         p300.pick_up_tip()
