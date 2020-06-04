@@ -33,7 +33,7 @@ def run(protocol):
         'p1000_single', 'left', tip_racks=tips1000)
 
  
-    plate_type = "#pentabase_plate_with_adaptor"
+    plate_type = "pentabase_plate_with_adaptor"
     plate1 = protocol.load_labware(plate_type, "7")
     plate2 = protocol.load_labware(plate_type, "9")
     plate3 = protocol.load_labware(plate_type, "4") 
