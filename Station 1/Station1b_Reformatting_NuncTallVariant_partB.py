@@ -81,8 +81,9 @@ def run(protocol):
     
 
     transferVol = 300
+    x = 48
     for src, dest in zip(samps, all_loadwells):
-        p300.pick_up_tip()
+        p300.pick_up_tip(tips1000[0].wells()[x])
         for _ in range(1):
         	#2 mm of the bottom of the tube works effectively with both taller Nunc variant and the standard Nunc tubes. 
             p300.transfer(transferVol, src.bottom(z=2), dest.top(-6), 
@@ -90,6 +91,7 @@ def run(protocol):
             p300.blow_out(dest.top(-6))
             p300.touch_tip()
         p300.drop_tip()
+        x += 1
 
 
     protocol.comment("Congratulations! \nRun Complete. Refridgerate deep-well plate.")

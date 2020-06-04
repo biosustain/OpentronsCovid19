@@ -86,9 +86,10 @@ def run(protocol):
     
 
     transferVol = 300
+    x = 48
 
     for src, dest in zip(samps, all_loadwells):
-        p300.pick_up_tip()
+        p300.pick_up_tip(tips1000[0].wells()[x])
         for _ in range(1):
         	#Z Value needs to be changed with fluid volume variations and swab
             #changes
@@ -97,7 +98,7 @@ def run(protocol):
             p300.blow_out(dest.top(-6))
             p300.touch_tip()
         p300.drop_tip()
-
+        x += 1
 
     protocol.comment("Congratulations! \nRun Complete. Refridgerate deep-well plate.")
 
